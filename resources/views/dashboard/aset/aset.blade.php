@@ -5,7 +5,7 @@
         Hallo {{ auth()->user()->name }}
     </h1>
     <hr>
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between mb-3">
         <h3>Pendataan Aset Aset</h3>
         <a href="/asset/create" type="button" class="btn btn-primary"> <span data-feather="plus"></span> Add</a>
     </div>
