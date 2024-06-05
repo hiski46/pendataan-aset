@@ -114,7 +114,7 @@
                 <div class="mb-3">
                     <label for="ket" class="form-label">Keteranagan</label>
                     <input value="{{ $ket }}" type="text" class="form-control" name="ket"
-                        id="ket" placeholder="Keteranagn" required>
+                        id="ket" placeholder="Keterangan" required>
                 </div>
             </div>
         </div>
