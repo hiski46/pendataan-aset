@@ -106,7 +106,7 @@
             <div class="col">
                 <div class="mb-3">
                     <label for="ket" class="form-label">Keteranagan</label>
-                    <input type="text" class="form-control" name="ket" id="ket" placeholder="Keteranagn"
+                    <input type="text" class="form-control" name="ket" id="ket" placeholder="Keterangan"
                         required>
                 </div>
             </div>
