@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="d-flex justify-content-between mb-3">
-        <h3>Kartu Inventaris Ruangan</h3>
+        <h3>Buku Inventaris Aset</h3>
         <a href="/export" class="btn btn-success">Export Excel <span data-feather="table" class="align-text-bottom"></span></a>
     </div>
     <div class="table-responsive">
