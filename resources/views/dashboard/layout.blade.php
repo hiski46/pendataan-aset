@@ -161,15 +161,18 @@
                             </a>
                         </li>
                     </ul>
-                    <hr>
-                    <ul class="nav flex-column mb-5">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/user">
-                                <span data-feather="users" class="align-text-bottom"></span>
-                                Users
-                            </a>
-                        </li>
-                    </ul>
+                    @if(Auth::user()->role == 'admin')
+                        <hr>
+                        <ul class="nav flex-column mb-5">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/user">
+                                    <span data-feather="users" class="align-text-bottom"></span>
+                                    Users
+                                </a>
+                            </li>
+                        </ul>
+                    @endif
+                   
                 </div>
             </nav>
 
